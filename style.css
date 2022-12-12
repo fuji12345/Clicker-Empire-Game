@@ -1,0 +1,31 @@
+#mainPageRight {
+    height: 70%;
+}
+
+.scroll {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.hanberger {
+    height: 80%;
+}
+
+.main-box {
+    height: 80%;
+}
+
+.item:hover {
+    border: 2px solid #AA0000;
+    filter: brightness(60%);
+}
+
+#click-img:hover {
+    filter: brightness(60%);
+}
+
+#click-img:active {
+    transform: scale(0.9, 0.9);
+}
